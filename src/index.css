@@ -1,14 +1,34 @@
+/*Colours*/
+/*  Red: #FF4822    */
+/*  Black: #000000  */
+/*  Grey: #999999   */
+/*  White: #ffffff  */
+
+/*Typeograpgy*/
+h1, h2, h3, h4, h5, p, span {
+  font-family: Roboto, serif, sans-serif;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 500;
+  color: #000000;
+}
+
+p {
+  font-size: 19px;
+  font-weight: 400;
+  color: #000000;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: Roboto, serif, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: Roboto, serif, "Courier New", monospace;
 }

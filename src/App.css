@@ -1,33 +1,72 @@
-.App {
+#root .primary {
+  background: #FF4822;
+  color: #000;
+  font-size: 19px;
+}
+
+#root .bold {
+  font-weight: 600;
+}
+
+
+/*HeroMenu Component*/
+.hero-menu {
+  margin-bottom: 20px;
+}
+
+
+/*MovieList Component*/
+.movie-list {
+  margin: 0 20px;
+}
+
+
+/*Movie Component*/
+.movie .movie-icon {
+  width: 100%;
+}
+
+.movie .details.hidden {
+  display: none;
+}
+
+.movie .center.hidden {
+  display: none;
+}
+
+.movie .header {
+  color: #000;
+  font-size: 32px;
+}
+
+.movie .description {
+  color: #000;
+  font-size: 19px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.ui.cards {
+  margin: 0;
+}
+
+.ui.cards>.card.movie {
+  margin: 0;
+  padding: 0;
+}
+
+.movie .missingImage {
+  padding: 10px;
+}
+
+.movie .missingImage h2 {
+  font-size: 38px;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.blurring.dimmable.image {
+  height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
