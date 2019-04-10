@@ -69,12 +69,8 @@ class MovieList extends React.Component {
 						return <Movie
 							key={movie.id}
 							id={movie.id}
-							title={movie.title}
-							overview={movie.overview}
-							genres={movie.genre_ids}
 							image={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
-							tagLine={movie.tagLine}
-							runTime={movie.runTime} />
+							title={movie.title} />
 					})}
 				</div>
 			</div>

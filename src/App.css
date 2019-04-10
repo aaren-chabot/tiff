@@ -26,12 +26,37 @@
   width: 100%;
 }
 
-.movie .details.hidden {
+.hide {
   display: none;
 }
 
-.movie .center.hidden {
-  display: none;
+.content {
+  margin-top: 25px;
+}
+
+.button-group {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 100%;
+}
+
+.details-toggle {
+  padding: 6px 9px;
+  border-radius: 4px;
+  background: #FF4822;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.details-toggle:hover {
+  background: #fff;
+  border-color: #FF4822;
+}
+
+.content-container {
+  overflow-y: scroll;
 }
 
 .movie .header {
@@ -39,11 +64,34 @@
   font-size: 32px;
 }
 
+.movie .sub-header {
+  color: #000;
+  font-size: 20px;
+  margin-top: -20px;
+}
+
 .movie .description {
   color: #000;
   font-size: 19px;
   text-align: left;
   margin-bottom: 10px;
+}
+
+.movie .cast {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.movie .cast:hover {
+  text-decoration: underline;
+}
+
+.movie .cast.movie {
+  cursor: default;
+}
+
+.movie .cast.movie:hover {
+  text-decoration: none;;
 }
 
 .ui.cards {
